@@ -1,0 +1,25 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 504px;
+    height: 504px;
+    border: 2px solid black;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cont{
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#btn{
+    margin-top: 50px;
+    margin-right: 10px;
+}
