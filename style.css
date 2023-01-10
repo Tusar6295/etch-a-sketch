@@ -1,30 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+
 *{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    background-color: #44318D;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#header{
+    color: #ffffff;
+    margin-top: 5px;
+    font-family: 'Kaushan Script', cursive;
+
+}
+.section{
+    display: flex;
+    flex-direction: column;
+    
 }
 .container{
-    width: 504px;
-    height: 504px;
-    border: 2px solid black;
+    width: 640px;
+    height: 640px;
+    border: 20px solid #2A1B3D;
+    border-radius: 8px;
     display: flex;
     flex-wrap: wrap;
 }
 
-.cont{
+.segment{
+    margin-top: 50px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 20px;
+    padding: 10px;
+    background-color: #2A1B3D;
+    height: 300px;
+    width: 200px;
+    border-radius: 8px;
+}
+.cont{
+    display: flex;
+    justify-content: center;
+    margin: 50px 0;
+    gap: 100px;
 }
 
-.segment{
-    margin: 30px;
+button:hover{
+    background-color: #D83F87;
 }
-#btn{
-    margin-right: 10px;
-}
-
-#reset,#color{
-    margin-right: 10px;
+button{
+    /* background-color: #66FCF1; */
+    border: 1px solid #D83F87;
+    background-color: #2A1B3D;
+    padding: 10px 30px;
+    width: 100px;
+    color: white;
+    border-radius: 2px;
+    font-size: 11px;
 }
